@@ -18,7 +18,7 @@ def Shutdown():
 st = Tk()                           # Making an Object variable for Shutdown. Tk Class
 st.title("Shutdown App")
 st.geometry("240x235")
-st.config(bg = "Blue")              # Configure Background colour
+st.config(bg = "Red")              # Configure Background colour
 
 r_button = Button(st, text = "Restart", font = ("Time New Roman", 20, "bold"),
                   relief = RAISED, cursor = "plus", command=Restart)
